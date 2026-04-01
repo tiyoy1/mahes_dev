@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>News Manager</h1>
+        <h1>News Manager</h1>3
         <a href="{{ route('news.create') }}">Create Registration</a>    
         @if ($news->count())
         <table>
